@@ -7,7 +7,7 @@ J = 10
 K = 10
 Q = 10
 
-def hit(my_cards, deck):
+def hit(my_cards, dec):
     random_card = random.choice(deck)
     my_cards.append(random_card)
     return my_cards
