@@ -31,11 +31,12 @@ if input() == 'hit':
 
 print(dealer_cards) # we finally print the dealer cards to see we win or not
 
-if (sum(my_cards) > sum(dealer_cards)) and sum(my_cards) >= 21:
+if (sum(my_cards) > sum(dealer_cards)) and sum(my_cards) <= 21:
     print('You Win, congratulation')
 
 else:
     print('Dealer wins')
+
 
 
 
